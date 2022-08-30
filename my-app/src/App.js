@@ -1,8 +1,10 @@
-import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from './components/Navbar';
+import Footer from "./components/Footer";
+import './App.css';
 function App() {
   return (
-    <h2>Sup Dork?</h2>
+    <Navbar/>
   );
 }
 
