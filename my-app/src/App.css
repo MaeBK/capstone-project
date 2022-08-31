@@ -89,12 +89,19 @@ nav ul li{
 
 /*---------About Me---------*/
 
-.mae-doodle{
+/* .mae-doodle{
   border-radius: 15%;
   padding: 0.3rem;
   border: 1px solid var(--primaey-dark);
-}
+} */
 .about-heading{
   color: var(--primary-violet);
 
+}
+.row{
+  background-color: var(--primary-lilac);
+}
+.about-text{
+  text-align: center;
+  padding: 90px 12px 12px 12px;
 }
