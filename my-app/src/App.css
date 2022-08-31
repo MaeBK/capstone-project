@@ -147,3 +147,16 @@ nav ul li {
   opacity: 65%;
   transition: 0.3s ease-in-out;
 }
+/*---------------Contact--------------------*/
+.contacts {
+  background: var(--primaey-dark);
+  padding: 3rem 0;
+}
+.contacts h1 {
+  color:var(--primary-lines);
+  padding: 1.3rem 0;
+}
+.contacts p {
+  color:var(--primary-lines);
+  font-size: 1.2rem;
+}

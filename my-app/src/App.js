@@ -14,8 +14,8 @@ function App() {
     <Header/>
     <AboutMe/>
     <Projects/>
-    {/* <Contact/>
-    <Footer/> */}
+    <Contact/>
+    {/* <Footer/> */}
     </>
   );
 }
