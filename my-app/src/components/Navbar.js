@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   return (
@@ -12,16 +13,16 @@ const Navbar = () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="#">Home<span className="sr-only"></span></a>
+        <Link smooth={true} to="home" className="nav-link" href="#">Home<span className="sr-only"></span></Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">About Me</a>
+        <Link smooth={true} to="about" className="nav-link" href="#">About Me</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Projects</a>
+        <Link smooth={true} to="projects" className="nav-link" href="#">Projects</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Contact</a>
+        <Link smooth={true} to="contact" className="nav-link" href="#">Contact</Link>
       </li>
     </ul>
   </div>
