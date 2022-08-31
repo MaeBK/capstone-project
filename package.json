@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.0",
+    "react-popupbox": "^2.0.9",
     "react-typed": "^1.2.0"
   }
 }

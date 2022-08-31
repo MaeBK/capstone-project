@@ -2,24 +2,26 @@
 
 :root {
   --primary-lilac:#D5C9E8;
+  --primary-grey: #ABA7B2;
   --primary-violet: #7E5AB2;
   --primary-lines: #A994C7;
   --primary-hover-lines:#7738D1;
   --primaey-dark: #29104E;
+  --primary-black: #000000;
 }
-body{
+body {
   font-family: 'Courier Prime', monospace !important;
 }
 
 /*---------NavBar---------*/
-nav a.nav-link{
+nav a.nav-link {
   font-weight: 300;
   letter-spacing: 0.6px;
   font-size: 20px;
   cursor: pointer;
 
 }
-nav ul li{
+nav ul li {
   text-transform: uppercase;
 
 }
@@ -28,7 +30,7 @@ nav ul li{
   margin-left: 30px;
   color: var(--primary-lilac);
 }
-.navbar-brand{
+.navbar-brand {
   max-width: 17.25rem;
   padding:28px !important;
   height: 6rem;
@@ -39,7 +41,7 @@ nav ul li{
 
 
 /*---------Header---------*/
-.header-wrapper{
+.header-wrapper {
   position: relative;
   background: url(https://img.freepik.com/free-vector/watercolor-purple-outer-space-background_23-2149247755.jpg) no-repeat;
   background-size: cover;
@@ -47,7 +49,7 @@ nav ul li{
   height: 90vh;
 }
 
-.main-info{
+.main-info {
   display: flex;
   position: absolute;
   top: 0;
@@ -64,13 +66,13 @@ nav ul li{
   text-transform: uppercase;
 }
 
-.typed-text{
+.typed-text {
   font-size: 2rem;
   color: var(--primary-violet);
   text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 
-.btn-main-offer{
+.btn-main-offer {
   border: 1px solid var(--primary-lines);
   text-transform: uppercase;
   border-radius: 0;
@@ -94,14 +96,54 @@ nav ul li{
   padding: 0.3rem;
   border: 1px solid var(--primaey-dark);
 } */
-.about-heading{
+.about-heading {
   color: var(--primary-violet);
 
 }
-.row{
+.row {
   background-color: var(--primary-lilac);
 }
-.about-text{
+.about-text {
   text-align: center;
   padding: 90px 12px 12px 12px;
+}
+
+/*---------Projects---------*/
+.project-wrapper {
+  background: var(--primary-lilac);
+  padding: 3rem 0;
+}
+.image-box-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.project-img {
+  width: 30rem;
+  /* border: 1px solid var(--primary-lines); */
+  padding: 0 0.5rem;
+}
+.project-img-box {
+  position: relative;
+  margin: 1rem;
+}
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  justify-content: center;
+  width: 30rem;
+  height: 20rem;
+  top: 0;
+  border: 1px solid var(--primary-lines);
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: var(--primary-violet);
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+.project-img-box:hover .overflow {
+  opacity: 65%;
+  transition: 0.3s ease-in-out;
 }
