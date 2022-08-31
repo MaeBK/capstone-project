@@ -5,7 +5,7 @@ const Projects = () => {
     
 
   return (
-    <div className="project-wrapper">
+    <div id='projects' className="project-wrapper">
         <div className="container">
             <h1 className="text-uppercase text-center py-5">Previous Projects</h1>
             <div className="image-box-wrapper">

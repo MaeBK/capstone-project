@@ -110,7 +110,7 @@ nav ul li {
 
 /*---------Projects---------*/
 .project-wrapper {
-  background: var(--primary-lilac);
+  background: var(--primary-lines);
   padding: 3rem 0;
 }
 .image-box-wrapper {
@@ -149,7 +149,7 @@ nav ul li {
 }
 /*---------------Contact--------------------*/
 .contacts {
-  background: var(--primaey-dark);
+  background: var(--primary-lilac);
   padding: 3rem 0;
 }
 .contacts h1 {
@@ -159,4 +159,49 @@ nav ul li {
 .contacts p {
   color:var(--primary-lines);
   font-size: 1.2rem;
+}
+.contacts input, .contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  /* border-top: 2px solid var(--primary-violet); */
+  border-bottom: 2px solid var(--primary-violet);
+  /* border-radius: 0; */
+  color: var(--primary-lines);
+  outline: 0 !important;
+  box-shadow: none;
+  margin-bottom: 1rem;
+}
+
+.contacts .container{
+  padding: 4rem 0;
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background: transparent;
+  color: var(--primaey-dark);
+  border-bottom: 2px solid var(--primary-violet);
+}
+
+.contacts textarea{
+  height: 12.2rem !important;
+  
+}
+
+/*---------------Footer--------------------*/
+.footer{
+  background: var(--primary-lines);
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  background: var(--primary-lines);
+  justify-content: space-evenly;
+  
+}
+.social-media-icons {
+  margin:0 15px ;
+  background: var(--primary-lilac);
 }
