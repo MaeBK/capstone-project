@@ -8,7 +8,7 @@
   --primaey-dark: #29104E;
 }
 body{
-  font-family: 'Courier Prime', monospace;
+  font-family: 'Courier Prime', monospace !important;
 }
 
 /*---------NavBar---------*/
@@ -61,12 +61,13 @@ nav ul li{
 }
 .main-info h1 {
   color: var(--primary-lilac);
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 .typed-text{
   font-size: 2rem;
-  color: var(--primary-violet)
+  color: var(--primary-violet);
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 
 .btn-main-offer{
@@ -84,4 +85,23 @@ nav ul li{
   background-color: var(--primary-hover-lines);
   color: var(--primary-dark);
   transition: .2s ease-in-out;
+}
+
+/*---------About Me---------*/
+
+/* .mae-doodle{
+  border-radius: 15%;
+  padding: 0.3rem;
+  border: 1px solid var(--primaey-dark);
+} */
+.about-heading{
+  color: var(--primary-violet);
+
+}
+.row{
+  background-color: var(--primary-lilac);
+}
+.about-text{
+  text-align: center;
+  padding: 90px 12px 12px 12px;
 }
